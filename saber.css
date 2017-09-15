@@ -20,17 +20,17 @@ img {
 		content:url(images/close.gif);
 	}
 }
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 300px) {
 	img {
 		content:url(images/open.gif);
 	}
 }
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 400px) {
 	img {
 		content:url(images/on.gif);
 	}
 }
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 700px) {
 	img {
 		content:url(images/move.gif);
 	}
