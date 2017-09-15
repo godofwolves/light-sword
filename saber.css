@@ -1,0 +1,37 @@
+body {
+	padding-top: 20vh;
+	background-color: #000000;
+}
+
+img {
+	display: block;
+	margin: auto;
+}
+
+/* If the viewport width is AT LEAST 1500 pixels wide (viewport width >= 1500px), the image below is displayed */
+
+
+
+
+
+
+@media screen and (min-width: 0px) {
+	img {
+		content:url(images/close.gif);
+	}
+}
+@media screen and (min-width: 400px) {
+	img {
+		content:url(images/on.gif);
+	}
+}
+@media screen and (min-width: 500px) {
+	img {
+		content:url(images/move.gif);
+	}
+}
+@media screen and (min-width: 1500px) {
+	img {
+		content:url(images/open.gif);
+	}
+}
